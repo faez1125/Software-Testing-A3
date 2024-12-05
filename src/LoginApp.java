@@ -74,7 +74,7 @@ public class LoginApp extends JFrame {
         }
         return userName;
     }
-
+    void print(){}
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             LoginApp loginApp = new LoginApp();
